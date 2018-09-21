@@ -21,15 +21,16 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.microsoft.azure</groupId>
-            <artifactId>azure-functions-java-core</artifactId>
-            <version>[1.0.0-beta-1,1.0.0)</version>
+            <groupId>com.microsoft.azure.functions</groupId>
+            <artifactId>azure-functions-java-library</artifactId>
+            <version>1.0.0-beta-5</version>
         </dependency>
+
 
         <dependency>
             <groupId>com.microsoft.azure</groupId>
             <artifactId>azure</artifactId>
-            <version>1.3.0</version>
+            <version>1.15.1</version>
         </dependency>
         <dependency>
             <groupId>commons-net</groupId>
@@ -38,9 +39,10 @@
         </dependency>
         <dependency>
             <groupId>com.microsoft.azure.cognitiveservices</groupId>
-            <artifactId>azure-computervision</artifactId>
-            <version>0.0.1-beta</version>
+            <artifactId>azure-cognitiveservices-computervision</artifactId>
+            <version>1.0.2-beta</version>
         </dependency>
+
 
         <!-- Test -->
         <dependency>
@@ -72,7 +74,7 @@
                 <plugin>
                     <groupId>com.microsoft.azure</groupId>
                     <artifactId>azure-functions-maven-plugin</artifactId>
-                    <version>0.2.0</version>
+                    <version>1.0.0-beta-6</version>
                 </plugin>
             </plugins>
         </pluginManagement>

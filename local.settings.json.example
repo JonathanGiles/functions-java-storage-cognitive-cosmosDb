@@ -4,6 +4,7 @@
     "AzureWebJobsStorage": "<Storage Account Connection String>",
     "AzureWebJobsDashboard": "<Storage Account Connection String>",
     "CosmosDbConnection":"<CosmosDb Connection String>",
-    "CognitiveServicesApiKey":"<Cognitive API Key>"
+    "CognitiveServicesApiKey":"<Cognitive API Key>",
+    "CognitiveServicesEndpoint":"<Cognitive Services Endpoint>"
   }
 }
